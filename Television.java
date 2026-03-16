@@ -1,23 +1,35 @@
-class Television{
-public static void main(String args[]){
-	String brand = " LG ";
-	int modelYear = 2025;
-	String productDimensions = "‎23 x 123.6 x 78 cm 11.5 kg";
-	String itemModelNumber = "‎55UA82006LA";
-	String operatingSystem = " WebOS";
-	String tunerTechnology = "DVB-T2/T (Terrestrial), DVB-C (Cable), DVB-S2/S (Satellite)";
-	String responseTime = "‎6.5 Milliseconds";
-	String displayTechnology="‎‎‎4K UHD";
-	String displayType ="‎IPS";
-	
-	System.out.println(" The Brand is " + brand);
-	System.out.println(" The Model Year is " + modelYear );
-	System.out.println(" The Product Dimensions is " + productDimensions);
-	System.out.println(" The Item Number is " + itemModelNumber);
-	System.out.println(" TheOperating System of Product is " + operatingSystem  );
-	System.out.println(" The  Tuner Technology  is " + tunerTechnology );
-	System.out.println(" The Response Time is " + responseTime);
-	System.out.println(" The Display Technology is" +displayTechnology );
-	System.out.println(" The Display Type  is " + displayType);
-}
+class Television {
+
+    static String brand;
+    static int size;
+    static String displayType;
+    static String resolution;
+    static String operatingSystem;
+    static String soundOutput;
+    static String connectivity;
+    static String countryOfOrigin;
+    static int price;
+
+    public static void main(String[] args) {
+
+        brand = "Sony";
+        size = 55;
+        displayType = "LED";
+        resolution = "4K UHD";
+        operatingSystem = "Android TV";
+        soundOutput = "20W";
+        connectivity = "WiFi & Bluetooth";
+        countryOfOrigin = "India";
+        price = 65000;
+
+        System.out.println("Brand: " + brand);
+        System.out.println("Size: " + size + " inches");
+        System.out.println("Display Type: " + displayType);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Operating System: " + operatingSystem);
+        System.out.println("Sound Output: " + soundOutput);
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Country Of Origin: " + countryOfOrigin);
+        System.out.println("Price: ₹" + price);
+    }
 }
