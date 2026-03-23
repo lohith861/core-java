@@ -1,23 +1,52 @@
-class Television{
-public static void main(String args[]){
-	String brand = " LG ";
-	int modelYear = 2025;
-	String productDimensions = "‎23 x 123.6 x 78 cm 11.5 kg";
-	String itemModelNumber = "‎55UA82006LA";
-	String operatingSystem = " WebOS";
-	String tunerTechnology = "DVB-T2/T (Terrestrial), DVB-C (Cable), DVB-S2/S (Satellite)";
-	String responseTime = "‎6.5 Milliseconds";
-	String displayTechnology="‎‎‎4K UHD";
-	String displayType ="‎IPS";
-	
-	System.out.println(" The Brand is " + brand);
-	System.out.println(" The Model Year is " + modelYear );
-	System.out.println(" The Product Dimensions is " + productDimensions);
-	System.out.println(" The Item Number is " + itemModelNumber);
-	System.out.println(" TheOperating System of Product is " + operatingSystem  );
-	System.out.println(" The  Tuner Technology  is " + tunerTechnology );
-	System.out.println(" The Response Time is " + responseTime);
-	System.out.println(" The Display Technology is" +displayTechnology );
-	System.out.println(" The Display Type  is " + displayType);
-}
+class Television {
+
+    static String brandd;
+    static int sizee;
+    static String displayTypee;
+    static String resolutionn;
+    static String operatingSystemm;
+    static String soundOutputt;
+    static String connectivityy;
+    static String countryOfOriginn;
+    static int pricee;
+
+    public static void main(String[] args) {
+
+        String brand = "Sony";
+        int size = 55;
+        String displayType = "LED";
+        String resolution = "4K UHD";
+        String operatingSystem = "Android TV";
+        String soundOutput = "20W";
+        String connectivity = "WiFi & Bluetooth";
+        String countryOfOrigin = "India";
+        int price = 65000;
+
+        System.out.println("Brand: " + brand);
+        System.out.println("Brand: " + Television.brandd);
+
+        System.out.println("Size: " + size + " inches");
+        System.out.println("Size: " + Television.sizee);
+
+        System.out.println("Display Type: " + displayType);
+        System.out.println("Display Type: " + Television.displayTypee);
+
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Resolution: " + Television.resolutionn);
+
+        System.out.println("Operating System: " + operatingSystem);
+        System.out.println("Operating System: " + Television.operatingSystemm);
+
+        System.out.println("Sound Output: " + soundOutput);
+        System.out.println("Sound Output: " + Television.soundOutputt);
+
+        System.out.println("Connectivity: " + connectivity);
+        System.out.println("Connectivity: " + Television.connectivityy);
+
+        System.out.println("Country Of Origin: " + countryOfOrigin);
+        System.out.println("Country Of Origin: " + Television.countryOfOriginn);
+
+        System.out.println("Price: ₹" + price);
+        System.out.println("Price: ₹" + Television.pricee);
+    }
 }
