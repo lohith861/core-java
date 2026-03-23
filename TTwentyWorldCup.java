@@ -4,80 +4,63 @@ class TTwentyWorldCup {
 
         String type = "TTwentyWorldCup";
 
-        String groupA[] = { "India", "Pakistan", "United States", "Netherlands", "Namibia" };
-        String groupB[] = { "Australia", "Sri Lanka", "Ireland", "Zimbabwe", "Oman" };
-        String groupC[] = { "England", "West Indies", "Scotland", "Nepal", "Italy" };
-        String groupD[] = { "New Zealand", "South Africa", "Afghanistan", "Canada", "United Arab Emirates" };
+        String aone="India";
+        String atwo="Pakistan";
+        String athree="United States";
+        String afour="Netherlands";
+        String afive="Namibia";
+
+        String groupA[]={aone,atwo,athree,afour,afive};
+
+
+        String bone="Australia";
+        String btwo="Sri Lanka";
+        String bthree="Ireland";
+        String bfour="Zimbabwe";
+        String bfive="Oman";
+
+        String groupB[]={bone,btwo,bthree,bfour,bfive};
+
+
+        String cone="England";
+        String ctwo="West Indies";
+        String cthree="Scotland";
+        String cfour="Nepal";
+        String cfive="Italy";
+
+        String groupC[]={cone,ctwo,cthree,cfour,cfive};
+
+
+        String done="New Zealand";
+        String dtwo="South Africa";
+        String dthree="Afghanistan";
+        String dfour="Canada";
+        String dfive="United Arab Emirates";
+
+        String groupD[]={done,dtwo,dthree,dfour,dfive};
+
 
         System.out.println("This is " + type + "\n");
 
         System.out.println("This is the Group A:\n");
-
-        String azero = groupA[0];
-        System.out.println(azero);
-
-        String aone = groupA[1];
-        System.out.println(aone);
-
-        String atwo = groupA[2];
-        System.out.println(atwo);
-
-        String athree = groupA[3];
-        System.out.println(athree);
-
-        String afour = groupA[4];
-        System.out.println(afour);
+        for(String team : groupA){
+            System.out.println(team);
+        }
 
         System.out.println("\nThis is the Group B:\n");
-
-        String bzero = groupB[0];
-        System.out.println(bzero);
-
-        String bone = groupB[1];
-        System.out.println(bone);
-
-        String btwo = groupB[2];
-        System.out.println(btwo);
-
-        String bthree = groupB[3];
-        System.out.println(bthree);
-
-        String bfour = groupB[4];
-        System.out.println(bfour);
+        for(String team : groupB){
+            System.out.println(team);
+        }
 
         System.out.println("\nThis is the Group C:\n");
-
-        String czero = groupC[0];
-        System.out.println(czero);
-
-        String cone = groupC[1];
-        System.out.println(cone);
-
-        String ctwo = groupC[2];
-        System.out.println(ctwo);
-
-        String cthree = groupC[3];
-        System.out.println(cthree);
-
-        String cfour = groupC[4];
-        System.out.println(cfour);
+        for(String team : groupC){
+            System.out.println(team);
+        }
 
         System.out.println("\nThis is the Group D:\n");
-
-        String dzero = groupD[0];
-        System.out.println(dzero);
-
-        String done = groupD[1];
-        System.out.println(done);
-
-        String dtwo = groupD[2];
-        System.out.println(dtwo);
-
-        String dthree = groupD[3];
-        System.out.println(dthree);
-
-        String dfour = groupD[4];
-        System.out.println(dfour);
+        for(String team : groupD){
+            System.out.println(team);
+        }
 
     }
 }

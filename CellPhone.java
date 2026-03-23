@@ -32,13 +32,13 @@ class CellPhone{
  contactListEighteen,contactListNineteen,contactListTwenty};
  System.out.println("the contacts in my mobile is :\n");
  
- for(long contactList:contactLists){
-	 System.out.println(contactList);
+ for(long contacts:contactLists){
+	 System.out.println(contacts);
  }
  
-
+ 
 }
- } 
+ }
 
 
 
