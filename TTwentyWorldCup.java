@@ -1,36 +1,83 @@
-class TTwentyWorldCup{
+class TTwentyWorldCup {
 
-public static void main(String[] anything){
+    public static void main(String[] anything) {
 
-String type = "TTwentyWorldCup";
-String groupA[]={ "India","Pakistan","united states","Netherlands","Namibia"};
-String groupB[]={ "Australia","SriLanka","Ireland","Zimbanbwe","Oman"};
-String groupC[]={ "England","West Indies","scotland","Nepal","Italy"};
-String groupD[]={ "Nwe Zeland","South Africa","Afghanisthan","canada","united arab emirates"};
-   
-System.out.println("This is " + type +"\n");
-System.out.println("this is the groupA :" + "\n");
-System.out.println(groupA[0]+"\n"+groupA[1]+"\n"+groupA[2]+"\n"+groupA[3]+"\n"+groupA[4]+"\n");
-System.out.println("this is the groupB :" + "\n");
-System.out.println(groupB[0]+"\n"+groupB[1]+"\n"+groupB[2]+"\n"+groupB[3]+"\n"+groupB[4]+"\n");
-System.out.println("this is the groupC :" + "\n");
-System.out.println(groupC[0]+"\n"+groupC[1]+"\n"+groupC[2]+"\n"+groupC[3]+"\n"+groupC[4]+"\n");
-System.out.println("this is the groupD :" + "\n");
-System.out.println(groupD[0]+"\n"+groupD[1]+"\n"+groupD[2]+"\n"+groupD[3]+"\n"+groupD[4]+"\n");
+        String type = "TTwentyWorldCup";
 
+        String groupA[] = { "India", "Pakistan", "United States", "Netherlands", "Namibia" };
+        String groupB[] = { "Australia", "Sri Lanka", "Ireland", "Zimbabwe", "Oman" };
+        String groupC[] = { "England", "West Indies", "Scotland", "Nepal", "Italy" };
+        String groupD[] = { "New Zealand", "South Africa", "Afghanistan", "Canada", "United Arab Emirates" };
 
+        System.out.println("This is " + type + "\n");
 
+        System.out.println("This is the Group A:\n");
 
+        String azero = groupA[0];
+        System.out.println(azero);
 
-}
+        String aone = groupA[1];
+        System.out.println(aone);
 
+        String atwo = groupA[2];
+        System.out.println(atwo);
 
+        String athree = groupA[3];
+        System.out.println(athree);
 
+        String afour = groupA[4];
+        System.out.println(afour);
 
+        System.out.println("\nThis is the Group B:\n");
 
+        String bzero = groupB[0];
+        System.out.println(bzero);
 
+        String bone = groupB[1];
+        System.out.println(bone);
 
+        String btwo = groupB[2];
+        System.out.println(btwo);
 
+        String bthree = groupB[3];
+        System.out.println(bthree);
 
+        String bfour = groupB[4];
+        System.out.println(bfour);
 
+        System.out.println("\nThis is the Group C:\n");
+
+        String czero = groupC[0];
+        System.out.println(czero);
+
+        String cone = groupC[1];
+        System.out.println(cone);
+
+        String ctwo = groupC[2];
+        System.out.println(ctwo);
+
+        String cthree = groupC[3];
+        System.out.println(cthree);
+
+        String cfour = groupC[4];
+        System.out.println(cfour);
+
+        System.out.println("\nThis is the Group D:\n");
+
+        String dzero = groupD[0];
+        System.out.println(dzero);
+
+        String done = groupD[1];
+        System.out.println(done);
+
+        String dtwo = groupD[2];
+        System.out.println(dtwo);
+
+        String dthree = groupD[3];
+        System.out.println(dthree);
+
+        String dfour = groupD[4];
+        System.out.println(dfour);
+
+    }
 }

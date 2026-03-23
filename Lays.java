@@ -1,24 +1,59 @@
-class Lays{
+class Lays {
 
-public static void main(String[] anything){
+    public static void main(String[] anything) {
 
-String type = "Lays Ingredients";
-String ingredients[]={"Rice Bran Oil","spices and condiments","onion powder","chil powder",
-"coriander powder","ginger powder","garlic powder","Black pepper powder","spices extract","tumeric powder",
-"Iodised salt","black salt","tomoto powder","citric acid"};
+        String type = "Lays Ingredients";
 
+        String ingredients[] = {
+            "Rice Bran Oil","Spices and Condiments","Onion Powder","Chili Powder",
+            "Coriander Powder","Ginger Powder","Garlic Powder","Black Pepper Powder",
+            "Spices Extract","Turmeric Powder","Iodised Salt","Black Salt",
+            "Tomato Powder","Citric Acid"
+        };
 
-System.out.println( type +"\n");
-System.out.println(ingredients[0]+"\n"+ingredients[1]+"\n"+ingredients[2]+"\n"+ingredients[3]+"\n"+ingredients[4]+"\n"+
-ingredients[5]+"\n"+ingredients[6]+"\n"+ingredients[7]+"\n"+ingredients[8]+"\n"+ingredients[9]+"\n"+ingredients[10]+"\n"+
-ingredients[11]+"\n"+ingredients[12]+"\n"+ingredients[13]+"\n"+ingredients[13]);
+        System.out.println(type + "\n");
 
+        String zero = ingredients[0];
+        System.out.println(zero);
 
+        String one = ingredients[1];
+        System.out.println(one);
 
+        String two = ingredients[2];
+        System.out.println(two);
 
+        String three = ingredients[3];
+        System.out.println(three);
 
+        String four = ingredients[4];
+        System.out.println(four);
 
+        String five = ingredients[5];
+        System.out.println(five);
 
+        String six = ingredients[6];
+        System.out.println(six);
 
-}
+        String seven = ingredients[7];
+        System.out.println(seven);
+
+        String eight = ingredients[8];
+        System.out.println(eight);
+
+        String nine = ingredients[9];
+        System.out.println(nine);
+
+        String ten = ingredients[10];
+        System.out.println(ten);
+
+        String eleven = ingredients[11];
+        System.out.println(eleven);
+
+        String twelve = ingredients[12];
+        System.out.println(twelve);
+
+        String thirteen = ingredients[13];
+        System.out.println(thirteen);
+
+    }
 }

@@ -1,7 +1,7 @@
 class Cafee{
 	
 	
-public static void main(String[] cafe){
+public static int main(String[] cafe){
 		
 		
 		String amruthTea = "Amruth tea";

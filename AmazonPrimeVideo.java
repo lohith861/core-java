@@ -1,115 +1,230 @@
-class AmazonPrimeVideo{
-  public static void main(String[] webseries){
+class AmazonPrimeVideo {
 
-    String type = "Amazon Prime Video Web Series List";
-    String kannadaWebSeries[] = {
-      "Naa Kanda Vishnu","Naa Kanda Puttanna Kanagal","Naa Kanda Ambi","Naa Kanda Vajramuni","Naa Kanda Rajkumar",
-      "Humble Politician Nograj","Suzhal  The Vortex","Suzhal - The Vortex Season 2","Killers Of The Cosmos",
-      "Murder in the Hills","Kavaludaari","Nathicharami","ACT 1978",
-      "Gubbi Mele Brahmastra","Kariya","Mysore Masala",
-      "Raa Ra","Gultoo","Dare to Dream", "Kannada Chronicles",
-      "Moorane Krishnappa","Maaman","Dhandoraa","Bank of Bhagyalakshmi","Vaamana",
-      "Urvi","Killers of the Cosmos: Kannada Ep","Puttanna Kanagal Docu","Naa Kanda Classic","Kannada Shorts Collection" };
-    String teluguWebSeries[] = {
-      "The Family Man","Gullak","Mirzapur","Panchayat",
-      "Bandish Bandits","Breathe","Four More Shots Please","Four More Shots",
-      "Aspirants","Modern Love Hyderabad","CommitMental","Gods of Dharmapuri","The Family Man Season 2",
-      "City of Dreams","Asur","Bestseller","Made in Heaven",
-      "Paatal Lok","Mirzapur Season 2","Breathe: Into the Shadows","The Gone Game",
-      "Gullak Season 2","Bandish Bandits Season 2","Jubilee","Metro Park","Inside Edge",
-	  "Hostages","Aarya","The Last Hour","Sunflower"};
-    String hindiWebSeries[] = {
-      "Mirzapur","The Family Man","Paatal Lok","Made in Heaven","Inside Edge",
-      "Breathe","Panchayat","Four More Shots Please","The Forgotten Army","Bandish Bandits",
-      "Bard of Blood","Tandav","Tandav Season 2","Gullak","The Boys",
-      "Comicstaan","The Wheel of Time","The Last Hour","Four More Shots Season 2","Breathe: Into the Shadows",
-      "Paatal Lok Season 2 ","Farzi","Jubilee","The Night Manager","Blackbird",
-      "Panchayat Season 2","The Family Man Season 3","Jungle Cry","City of Dreams","Made in Heaven Season 2"};
-    String englishWebSeries[] = {
-      "The Boys","Tom Clancy's Jack Ryan","The Man in the High Castle","Fleabag",
-      "The Marvelous Mrs. Maisel","Good Omens","Hanna","Bosch",
-      "Reacher","The Expanse","Goliath","Transparent","Hunters",
-      "Homecoming","Tales from the Loop","Upload","The Peripheral","Mirzapur",
-      "Sneaky Pete","Carnival Row","Modern Love","The Wheel of Time","The Grand Tour",
-      "Tom Clancy's Without Remorse","Paper Girls","The Lord of the Rings: The Rings of Power",
-      "The Power","The Rig","The Peripheral Season 2","Citadel"};
-    String japaneseWebSeries[] = {
-      "Tsurune","Dororo","Tokyo Ghoul","Alice in Borderland","Attack on Titan",
-      "Vinland Saga","Erased","Beastars","Great Pretender",
-      "Parasyte","Samurai Champloo","Cowboy Bebop","Ajin",
-      "Godzilla: Planet of the Monsters","Your Lie in April","March Comes in Like a Lion","Kabaneri of the Iron Fortress",
-      "Ergo Proxy","Psycho-Pass","Monster","Fullmetal Alchemist","Death Note",
-      "Steins Gate","Gintama","Neon Genesis Evangelion","Blade of the Immortal","Blade Runner: Black Out 2022",
-      "The Forest of Love","Shoplifters","Parasyte"};
-    String koreanWebSeries[] = {
-      "Pachinko","The Glory","Marry My Husband","Our Blues","The Night Agent",
-      "Familiar Wife","My Mister","Prison Playbook","The Silent Sea","Kingdom",
-      "Vincenzo","The Good Bad Mother","The Veil","Signal","Crash Landing on You",
-      "Mr. Sunshine","Train to Busan","Night in Paradise","Sweet Home","My Name",
-      "Itaewon Class","Love Alarm","Reply 1988","Hospital Playlist","Sisyphus: The Myth",
-      "The Silent Sea Season 2","Snowdrop","Alchemy of Souls","The Outlaws","The Glory"};
+    public static void main(String[] webseries) {
 
-    System.out.println(type + "\n");
+        String type = "Amazon Prime Video Web Series List";
 
-    System.out.println("Kannada Web Series:\n"+
-      kannadaWebSeries[0]+"\n"+kannadaWebSeries[1]+"\n"+kannadaWebSeries[2]+"\n"+kannadaWebSeries[3]+"\n"+
-      kannadaWebSeries[4]+"\n"+kannadaWebSeries[5]+"\n"+kannadaWebSeries[6]+"\n"+kannadaWebSeries[7]+"\n"+
-      kannadaWebSeries[8]+"\n"+kannadaWebSeries[9]+"\n"+kannadaWebSeries[10]+"\n"+kannadaWebSeries[11]+"\n"+
-      kannadaWebSeries[12]+"\n"+kannadaWebSeries[13]+"\n"+kannadaWebSeries[14]+"\n"+kannadaWebSeries[15]+"\n"+
-      kannadaWebSeries[16]+"\n"+kannadaWebSeries[17]+"\n"+kannadaWebSeries[18]+"\n"+kannadaWebSeries[19]+"\n"+
-      kannadaWebSeries[20]+"\n"+kannadaWebSeries[21]+"\n"+kannadaWebSeries[22]+"\n"+kannadaWebSeries[23]+"\n"+
-      kannadaWebSeries[24]+"\n"+kannadaWebSeries[25]+"\n"+kannadaWebSeries[26]+"\n"+kannadaWebSeries[27]+"\n"+
-      kannadaWebSeries[28]+"\n"+kannadaWebSeries[29]);
+        String k1="Naa Kanda Vishnu";
+        String k2="Naa Kanda Puttanna Kanagal";
+        String k3="Naa Kanda Ambi";
+        String k4="Naa Kanda Vajramuni";
+        String k5="Naa Kanda Rajkumar";
+        String k6="Humble Politician Nograj";
+        String k7="Suzhal The Vortex";
+        String k8="Suzhal Season 2";
+        String k9="Killers Of The Cosmos";
+        String k10="Murder in the Hills";
+        String k11="Kavaludaari";
+        String k12="Nathicharami";
+        String k13="ACT 1978";
+        String k14="Gubbi Mele Brahmastra";
+        String k15="Kariya";
+        String k16="Mysore Masala";
+        String k17="Raa Ra";
+        String k18="Gultoo";
+        String k19="Dare to Dream";
+        String k20="Kannada Chronicles";
+        String k21="Moorane Krishnappa";
+        String k22="Maaman";
+        String k23="Dhandoraa";
+        String k24="Bank of Bhagyalakshmi";
+        String k25="Vaamana";
+        String k26="Urvi";
+        String k27="Classic Stories";
+        String k28="Kannada Shorts";
+        String k29="Crime Files Kannada";
+        String k30="Village Drama";
 
-    System.out.println("\nTelugu Web Series:\n"+
-      teluguWebSeries[0]+"\n"+teluguWebSeries[1]+"\n"+teluguWebSeries[2]+"\n"+teluguWebSeries[3]+"\n"+
-      teluguWebSeries[4]+"\n"+teluguWebSeries[5]+"\n"+teluguWebSeries[6]+"\n"+teluguWebSeries[7]+"\n"+
-      teluguWebSeries[8]+"\n"+teluguWebSeries[9]+"\n"+teluguWebSeries[10]+"\n"+teluguWebSeries[11]+"\n"+
-      teluguWebSeries[12]+"\n"+teluguWebSeries[13]+"\n"+teluguWebSeries[14]+"\n"+teluguWebSeries[15]+"\n"+
-      teluguWebSeries[16]+"\n"+teluguWebSeries[17]+"\n"+teluguWebSeries[18]+"\n"+teluguWebSeries[19]+"\n"+
-      teluguWebSeries[20]+"\n"+teluguWebSeries[21]+"\n"+teluguWebSeries[22]+"\n"+teluguWebSeries[23]+"\n"+
-      teluguWebSeries[24]+"\n"+teluguWebSeries[25]+"\n"+teluguWebSeries[26]+"\n"+teluguWebSeries[27]+"\n"+
-      teluguWebSeries[28]+"\n"+teluguWebSeries[29]);
+        String kannadaWebSeries[]={k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,k21,k22,k23,k24,k25,k26,k27,k28,k29,k30};
 
-    System.out.println("\nHindi Web Series:\n"+
-      hindiWebSeries[0]+"\n"+hindiWebSeries[1]+"\n"+hindiWebSeries[2]+"\n"+hindiWebSeries[3]+"\n"+
-      hindiWebSeries[4]+"\n"+hindiWebSeries[5]+"\n"+hindiWebSeries[6]+"\n"+hindiWebSeries[7]+"\n"+
-      hindiWebSeries[8]+"\n"+hindiWebSeries[9]+"\n"+hindiWebSeries[10]+"\n"+hindiWebSeries[11]+"\n"+
-      hindiWebSeries[12]+"\n"+hindiWebSeries[13]+"\n"+hindiWebSeries[14]+"\n"+hindiWebSeries[15]+"\n"+
-      hindiWebSeries[16]+"\n"+hindiWebSeries[17]+"\n"+hindiWebSeries[18]+"\n"+hindiWebSeries[19]+"\n"+
-      hindiWebSeries[20]+"\n"+hindiWebSeries[21]+"\n"+hindiWebSeries[22]+"\n"+hindiWebSeries[23]+"\n"+
-      hindiWebSeries[24]+"\n"+hindiWebSeries[25]+"\n"+hindiWebSeries[26]+"\n"+hindiWebSeries[27]+"\n"+
-      hindiWebSeries[28]+"\n"+hindiWebSeries[29]);
+        String t1="The Family Man";
+        String t2="Gullak";
+        String t3="Mirzapur";
+        String t4="Panchayat";
+        String t5="Bandish Bandits";
+        String t6="Breathe";
+        String t7="Four More Shots";
+        String t8="Aspirants";
+        String t9="Modern Love Hyderabad";
+        String t10="CommitMental";
+        String t11="Gods of Dharmapuri";
+        String t12="City of Dreams";
+        String t13="Asur";
+        String t14="Bestseller";
+        String t15="Made in Heaven";
+        String t16="Paatal Lok";
+        String t17="Jubilee";
+        String t18="Metro Park";
+        String t19="Inside Edge";
+        String t20="Hostages";
+        String t21="Aarya";
+        String t22="The Last Hour";
+        String t23="Sunflower";
+        String t24="Mirzapur Season 2";
+        String t25="Gullak Season 2";
+        String t26="Bandish Bandits 2";
+        String t27="The Gone Game";
+        String t28="Breathe Season 2";
+        String t29="Farzi";
+        String t30="The Night Manager";
 
-    System.out.println("\nEnglish Web Series:\n"+
-      englishWebSeries[0]+"\n"+englishWebSeries[1]+"\n"+englishWebSeries[2]+"\n"+englishWebSeries[3]+"\n"+
-      englishWebSeries[4]+"\n"+englishWebSeries[5]+"\n"+englishWebSeries[6]+"\n"+englishWebSeries[7]+"\n"+
-      englishWebSeries[8]+"\n"+englishWebSeries[9]+"\n"+englishWebSeries[10]+"\n"+englishWebSeries[11]+"\n"+
-      englishWebSeries[12]+"\n"+englishWebSeries[13]+"\n"+englishWebSeries[14]+"\n"+englishWebSeries[15]+"\n"+
-      englishWebSeries[16]+"\n"+englishWebSeries[17]+"\n"+englishWebSeries[18]+"\n"+englishWebSeries[19]+"\n"+
-      englishWebSeries[20]+"\n"+englishWebSeries[21]+"\n"+englishWebSeries[22]+"\n"+englishWebSeries[23]+"\n"+
-      englishWebSeries[24]+"\n"+englishWebSeries[25]+"\n"+englishWebSeries[26]+"\n"+englishWebSeries[27]+"\n"+
-      englishWebSeries[28]+"\n"+englishWebSeries[29]);
+        String teluguWebSeries[]={t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30};
 
-    System.out.println("\nJapanese Web Series (Anime/Shows):\n"+
-      japaneseWebSeries[0]+"\n"+japaneseWebSeries[1]+"\n"+japaneseWebSeries[2]+"\n"+japaneseWebSeries[3]+"\n"+
-      japaneseWebSeries[4]+"\n"+japaneseWebSeries[5]+"\n"+japaneseWebSeries[6]+"\n"+japaneseWebSeries[7]+"\n"+
-      japaneseWebSeries[8]+"\n"+japaneseWebSeries[9]+"\n"+japaneseWebSeries[10]+"\n"+japaneseWebSeries[11]+"\n"+
-      japaneseWebSeries[12]+"\n"+japaneseWebSeries[13]+"\n"+japaneseWebSeries[14]+"\n"+japaneseWebSeries[15]+"\n"+
-      japaneseWebSeries[16]+"\n"+japaneseWebSeries[17]+"\n"+japaneseWebSeries[18]+"\n"+japaneseWebSeries[19]+"\n"+
-      japaneseWebSeries[20]+"\n"+japaneseWebSeries[21]+"\n"+japaneseWebSeries[22]+"\n"+japaneseWebSeries[23]+"\n"+
-      japaneseWebSeries[24]+"\n"+japaneseWebSeries[25]+"\n"+japaneseWebSeries[26]+"\n"+japaneseWebSeries[27]+"\n"+
-      japaneseWebSeries[28]+"\n"+japaneseWebSeries[29]);
+        String h1="Mirzapur";
+        String h2="The Family Man";
+        String h3="Paatal Lok";
+        String h4="Made in Heaven";
+        String h5="Inside Edge";
+        String h6="Breathe";
+        String h7="Panchayat";
+        String h8="Four More Shots Please";
+        String h9="The Forgotten Army";
+        String h10="Bandish Bandits";
+        String h11="Bard of Blood";
+        String h12="Tandav";
+        String h13="Gullak";
+        String h14="The Boys";
+        String h15="Comicstaan";
+        String h16="The Wheel of Time";
+        String h17="The Last Hour";
+        String h18="Farzi";
+        String h19="Jubilee";
+        String h20="The Night Manager";
+        String h21="Blackbird";
+        String h22="Panchayat Season 2";
+        String h23="The Family Man Season 3";
+        String h24="City of Dreams";
+        String h25="Made in Heaven 2";
+        String h26="Hostages 2";
+        String h27="Aarya 2";
+        String h28="Inside Edge 2";
+        String h29="Mirzapur 3";
+        String h30="Gullak 3";
 
-    System.out.println("\nKorean Web Series:\n"+
-      koreanWebSeries[0]+"\n"+koreanWebSeries[1]+"\n"+koreanWebSeries[2]+"\n"+koreanWebSeries[3]+"\n"+
-      koreanWebSeries[4]+"\n"+koreanWebSeries[5]+"\n"+koreanWebSeries[6]+"\n"+koreanWebSeries[7]+"\n"+
-      koreanWebSeries[8]+"\n"+koreanWebSeries[9]+"\n"+koreanWebSeries[10]+"\n"+koreanWebSeries[11]+"\n"+
-      koreanWebSeries[12]+"\n"+koreanWebSeries[13]+"\n"+koreanWebSeries[14]+"\n"+koreanWebSeries[15]+"\n"+
-      koreanWebSeries[16]+"\n"+koreanWebSeries[17]+"\n"+koreanWebSeries[18]+"\n"+koreanWebSeries[19]+"\n"+
-      koreanWebSeries[20]+"\n"+koreanWebSeries[21]+"\n"+koreanWebSeries[22]+"\n"+koreanWebSeries[23]+"\n"+
-      koreanWebSeries[24]+"\n"+koreanWebSeries[25]+"\n"+koreanWebSeries[26]+"\n"+koreanWebSeries[27]+"\n"+
-      koreanWebSeries[28]+"\n"+koreanWebSeries[29]);
+        String hindiWebSeries[]={h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,h17,h18,h19,h20,h21,h22,h23,h24,h25,h26,h27,h28,h29,h30};
 
-  }
+        String e1="The Boys";
+        String e2="Jack Ryan";
+        String e3="The Man in the High Castle";
+        String e4="Fleabag";
+        String e5="The Marvelous Mrs Maisel";
+        String e6="Good Omens";
+        String e7="Hanna";
+        String e8="Bosch";
+        String e9="Reacher";
+        String e10="The Expanse";
+        String e11="Goliath";
+        String e12="Transparent";
+        String e13="Hunters";
+        String e14="Homecoming";
+        String e15="Upload";
+        String e16="The Peripheral";
+        String e17="Sneaky Pete";
+        String e18="Carnival Row";
+        String e19="Modern Love";
+        String e20="The Wheel of Time";
+        String e21="The Grand Tour";
+        String e22="Paper Girls";
+        String e23="The Rings of Power";
+        String e24="The Power";
+        String e25="The Rig";
+        String e26="Citadel";
+        String e27="Bosch Legacy";
+        String e28="Reacher Season 2";
+        String e29="Jack Ryan Season 2";
+        String e30="Upload Season 2";
+
+        String englishWebSeries[]={e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11,e12,e13,e14,e15,e16,e17,e18,e19,e20,e21,e22,e23,e24,e25,e26,e27,e28,e29,e30};
+       
+	   String j1="Tsurune";
+        String j2="Dororo";
+        String j3="Tokyo Ghoul";
+        String j4="Alice in Borderland";
+        String j5="Attack on Titan";
+        String j6="Vinland Saga";
+        String j7="Erased";
+        String j8="Beastars";
+        String j9="Great Pretender";
+        String j10="Parasyte";
+        String j11="Samurai Champloo";
+        String j12="Cowboy Bebop";
+        String j13="Ajin";
+        String j14="Godzilla";
+        String j15="Your Lie in April";
+        String j16="March Comes in Like a Lion";
+        String j17="Kabaneri";
+        String j18="Ergo Proxy";
+        String j19="Psycho Pass";
+        String j20="Monster";
+        String j21="Fullmetal Alchemist";
+        String j22="Death Note";
+        String j23="Steins Gate";
+        String j24="Gintama";
+        String j25="Neon Genesis Evangelion";
+        String j26="Blade of the Immortal";
+        String j27="Blade Runner Black Out";
+        String j28="The Forest of Love";
+        String j29="Shoplifters";
+        String j30="Parasyte Live Action";
+
+        String japaneseWebSeries[]={j1,j2,j3,j4,j5,j6,j7,j8,j9,j10,j11,j12,j13,j14,j15,j16,j17,j18,j19,j20,j21,j22,j23,j24,j25,j26,j27,j28,j29,j30};
+
+        String k1="Pachinko";
+        String k2="The Glory";
+        String k3="Marry My Husband";
+        String k4="Our Blues";
+        String k5="The Night Agent";
+        String k6="Familiar Wife";
+        String k7="My Mister";
+        String k8="Prison Playbook";
+        String k9="The Silent Sea";
+        String k10="Kingdom";
+        String k11="Vincenzo";
+        String k12="The Good Bad Mother";
+        String k13="The Veil";
+        String k14="Signal";
+        String k15="Crash Landing on You";
+        String k16="Mr Sunshine";
+        String k17="Train to Busan";
+        String k18="Night in Paradise";
+        String k19="Sweet Home";
+        String k20="My Name";
+        String k21="Itaewon Class";
+        String k22="Love Alarm";
+        String k23="Reply 1988";
+        String k24="Hospital Playlist";
+        String k25="Sisyphus The Myth";
+        String k26="Snowdrop";
+        String k27="Alchemy of Souls";
+        String k28="The Outlaws";
+        String k29="The Glory Season 2";
+        String k30="Kingdom Season 2";
+
+        String koreanWebSeries[]={k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,k21,k22,k23,k24,k25,k26,k27,k28,k29,k30};
+
+        System.out.println(type + "\n");
+
+        for(String series:kannadaWebSeries){
+            System.out.println(series);
+        }
+
+        for(String series:teluguWebSeries){
+            System.out.println(series);
+        }
+
+        for(String series:hindiWebSeries){
+            System.out.println(series);
+        }
+
+        for(String series:englishWebSeries){
+            System.out.println(series);
+        }
+        for(String series:japaneseWebSeries){
+            System.out.println(series);
+        }
+
+        for(String series:koreanWebSeries){
+            System.out.println(series);
+        }
+    }
 }
